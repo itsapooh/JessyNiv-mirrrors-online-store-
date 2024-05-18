@@ -1,0 +1,235 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>Jess Mirrors</title>
+  <link rel="stylesheet" href="css/footer.css">
+  <style>
+    
+    header{
+      background: url(img/landing.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height:600px;
+
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+    }
+    .section{
+   
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+      scroll-snap-align: start;
+    }
+    .tabs .indicator{
+      background-color: #1a237e;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper blue darken-2">
+      <div class="container">
+        <a href="#" class="brand-logo">Jess' Mirrors </a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+              <li><a href="./services.html">Services</a></li>
+            
+              <li><a href="./contact.html">Contact</a></li>
+              <li> <a href="user_register.php" class="btn waves-effect waves-light blue white-text">
+                <span>SHOP</span>
+                    <i class="material-icons right">person</i>
+                </a></li>
+            
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./services.html">Services</a></li>
+         
+          <li><a href="./contact.html">Contact</a></li>
+          <li> <a href="user_header.php" class="btn waves-effect waves-light white blue-text">
+          
+            <i class="material-icons right">shop</i>
+        </a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- photo / grid -->
+  <section class="container section scrollspy" id="photos">
+    <div class="row">
+      <div class="col s12 l5">
+          <img src="img/gallery/6.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4">magical Jess' mirrors</h2>
+        <p>
+Jess mirrors offer more than just a reflection—they capture the essence of a moment, the depth of emotion, and the beauty of the human form.
+          
+          With their vertical orientation, portrait mirrors bring a sense of elegance and sophistication to any space. They elongate the room, drawing the eye upward and creating a sense of height and grandeur.
+          
+          But beyond their aesthetic appeal, portrait mirrors have a unique ability to showcase individuality and personality. Whether they're placed in a hallway, bedroom, or living area, they serve as a canvas for self-expression, reflecting not just physical appearance, but also inner beauty, confidence, and grace.
+          
+          Portrait mirrors invite introspection and self-reflection, encouraging us to pause, admire, and appreciate ourselves for who we are. They remind us that beauty comes in many forms, and that true radiance shines from within</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 offset-l1 push-l7">
+          <img src="img/cleaning.jpg" alt="" class="responsive-img materialboxed">
+      </div>
+      <div class="col s12 l6 offset-l1 pull-l5 right-align">
+        <h2 class="indigo-text text-darken-4">world of mirrors</h2>
+        <p>
+          Mirrors are magical portals that transcend time and space, reflecting not just our physical appearance, but also our innermost thoughts, emotions, and dreams.
+          
+          They serve as silent companions on life's journey, offering moments of self-reflection and introspection. With a single glance, mirrors remind us of our strengths, our vulnerabilities, and our infinite potential.
+          
+          Mirrors are storytellers, capturing the essence of a moment and preserving it for eternity. They bear witness to our triumphs and challenges, our joys and sorrows, reflecting the tapestry of our lives with unwavering clarity.
+          
+          But perhaps most importantly, mirrors are mirrors of truth, revealing the beauty that lies within each of us. They remind us that true radiance emanates from authenticity, kindness, and compassion, illuminating the world around us with warmth and grace.
+          
+          In a world where superficiality often prevails, mirrors offer a glimpse into the depths of our souls, inviting us to embrace our uniqueness and celebrate the beauty of our shared humanity.</p>
+      </div>
+    </div>
+   
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/gallery/fc.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- services / tabs -->
+  <section class="section container scrollspy" id="services">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">Get a load of this...</h2>
+        <p>mirrrors role extends beyond mere perception. Its your partner in design, your confidant in aesthetics. It listens to your needs, understand your vision, and offer tailored recommendations that elevate your space to new heights. With Jess mirrrors, it's not just about selling mirrors—it's about co-creating spaces that reflect your personality, your passions, your dreams</p>
+      
+       
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <!-- tabs -->
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#photography" class="active indigo-text text-darken-4">Home wall mirrors</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#editing" class="indigo-text text-darken-4">Office wall mirrors</a>
+          </li>
+        </ul>
+        <div id="photography" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">Home wall mirrors</p>
+            <p>Home Mirrors by Jess" is not just about reflecting images; it's about reflecting lifestyles, personalities, and aspirations. Each mirror crafted under this brand is a testament to the dedication of Jess to elevate the essence of every home.
+
+              With a keen eye for design and a passion for perfection, Jess mirrors not only adorn your walls but also elevate your space. Whether it's a sleek, modern mirror that adds a touch of contemporary elegance or a vintage-inspired piece that exudes timeless charm, each mirror is meticulously crafted to complement your unique style and aesthetic preferences.
+              
+              But more than just decorative accents, Home Mirrors by Jess are reflections of your individuality and self-expression. They capture the essence of who you are, reflecting your taste, personality, and aspirations. Whether you're creating a cozy sanctuary or a vibrant living space, these mirrors serve as focal points that add depth, dimension, and character to any room</p>
+         
+        </div>
+        <div id="editing" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">Office wall mirrors</p>
+            <p>
+              Office mirrors serve as more than just reflective surfaces—they're tools for empowerment, confidence, and professionalism.
+              
+              In the fast-paced world of business, appearance matters, and office mirrors provide employees with the opportunity to ensure they're presenting themselves at their best. A quick glance before a meeting or presentation allows individuals to check their attire, posture, and overall appearance, instilling a sense of confidence and readiness to tackle the day's challenges.
+              
+              Moreover, office mirrors can contribute to a positive and professional work environment. By encouraging employees to take pride in their appearance, mirrors promote self-respect and respect for others. They foster a culture of attention to detail and personal accountability, which can enhance productivity and collaboration among team members</p>
+            
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/gallery/tt.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- contact form -->
+  
+
+  <!-- footer -->
+  <footer class="footer">
+
+    <section class="grid">
+ 
+       <div class="box">
+          <h3>CONTACTS</h3>
+          <a href="home.php"> <i class="fas fa-angle-right"></i> Home</a>
+          <a href="about.php"> <i class="fas fa-angle-right"></i> About</a>
+          <a href="shop.php"> <i class="fas fa-angle-right"></i> Shop</a>
+         
+          <a href="admin/admin_login.php"><i class="fas fa-user-plus"></i> admin</a>
+       </div>
+ 
+       <div class="box">
+          <h3>Extra links</h3>
+          <a href="user_login.php"> <i class="fas fa-angle-right"></i> Login</a>
+          <a href="user_register.php"> <i class="fas fa-angle-right"></i> Register</a>
+          <a href="cart.php"> <i class="fas fa-angle-right"></i> Cart</a>
+          <a href="contact.html"> <i class="fas fa-angle-right"></i> Contact</a>
+       </div>
+ 
+       <div class="box">
+          <h3>Contact me.</h3>
+          <a href="tel:0704436730"><i class="fas fa-phone"></i> 0704436730</a>
+          <a href="tel:0704436730"><i class="fas fa-phone"></i>0704436730</a>
+          <a href="mailto:harshchy143@gmail.com"><i class="fas fa-envelope"></i> jessyniv@gmail.com</a>
+          <a href="https://www.google.com/myplace"><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya </a>
+       </div>
+ 
+    
+ 
+    </section>
+ 
+ </footer>
+ <div class="footer-copyright white darken-4">
+  <div class="container center-align">&copy; 2024 Jess mirrrors</div>
+</div>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+        yearRange: 1
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+
+    });
+  </script>
+</body>
+</html>
